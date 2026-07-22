@@ -3,7 +3,7 @@ short_title: "NovaPulse"
 description: "Official documentation for NovaPulse, an advanced Discord moderation, automation, and community management bot."
 product_description: "NovaPulse provides advanced moderation, server security, automation, verification, logging, and community-management tools for Discord servers."
 url: "https://botlabs-xyz.github.io"
-baseurl: "/novapulse"
+baseurl: "/novapulse-docs"
 lang: "en-US"
 markdown: kramdown
 permalink: pretty
@@ -13,7 +13,7 @@ links:
   invite: "https://discord.com/oauth2/authorize?client_id=1354663481021829150"
   support: "https://discord.gg/BusuZp2G8w"
   website: "https://afterpartylabs.xyz"
-  documentation: "https://botlabs-xyz.github.io/novapulse"
+  documentation: "https://botlabs-xyz.github.io/novapulse-docs/"
   github: "https://github.com/botlabs-xyz"
 
 social:
