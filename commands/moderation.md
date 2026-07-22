@@ -1,19 +1,19 @@
 ---
 layout: default
 title: Moderation commands
-description: Review the current bulk kick and unban commands, required Discord permissions, and controlled-release restrictions.
+description: Learn why NovaPulse bulk moderation commands are limited to authorized deployments.
 permalink: /commands/moderation/
 section: commands
 section_title: Commands
 section_url: /commands/
-status: Public rollout deferred
+status: Not currently available for standard deployments
 status_style: danger
 ---
 
-The current moderation commands act on groups of members or the complete ban list. They do not yet provide the confirmation and target-preview safeguards required for unrestricted public use.
+Bulk moderation commands are currently limited to authorized deployments and are not part of standard NovaPulse setup.
 
 <div class="notice danger">
-  Do not run these commands in a production community unless the deployment owner has approved a controlled procedure, a recent backup or recovery plan exists, and the operator has reviewed the exact target set.
+  Do not use these commands in a production community unless NovaPulse has explicitly authorized the deployment and your staff have reviewed the target set and recovery plan.
 </div>
 
 <article class="command-card" id="kick">
@@ -32,6 +32,6 @@ The current moderation commands act on groups of members or the complete ban lis
   <div class="command-details"><p><strong>Options</strong>None.</p><p><strong>NovaPulse authorization</strong>Access is currently governed by Discord command permissions; restrict the command to senior trusted staff.</p><p><strong>Expected result</strong>A visible summary of successful and failed unbans.</p><p><strong>Common errors</strong>Bot lacks Ban Members, no users are banned, fetch fails, or individual unban actions fail.</p><p><strong>Response visibility</strong>Visible in the channel.</p><p><strong>Related</strong><a href="{{ '/features/moderation/' | relative_url }}">Moderation safety</a></p></div>
 </article>
 
-## Why these commands are deferred
+## Availability
 
-The current validated source does not require an explicit confirmation step or show a dry-run target preview before either bulk action. <code>/kick</code> also needs an invoker hierarchy preflight and a safe target cap. These are release requirements, not optional polish.
+These tools need additional confirmation, preview, and hierarchy safeguards before they can be offered as standard features. Contact support if your authorized deployment needs help with them.

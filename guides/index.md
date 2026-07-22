@@ -15,4 +15,4 @@ section: guides
 
 ## Before following a guide
 
-Use a staff-only command channel, create disposable test roles, and confirm the feature's release status. Guides describe current source behavior but do not override controlled-deployment restrictions.
+Use a staff-only command channel, create disposable test roles, and introduce one workflow at a time. Advanced features should be configured only when NovaPulse has authorized them for your server.

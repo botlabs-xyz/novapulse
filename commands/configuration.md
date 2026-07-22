@@ -33,12 +33,12 @@ Configuration commands change settings for the current Discord server. Run them 
   <p>Resets one selected configuration item, a category, or all saved server configuration.</p>
   <pre><code>/clear-config module:Intro Channel confirm:true</code></pre>
   <div class="command-details"><p><strong>Options</strong><code>module</code> (required choice), <code>confirm</code> (must be true).</p><p><strong>Expected result</strong>A private list of cleared settings.</p><p><strong>Common errors</strong>Confirmation is false, permission is missing, module is unknown, or nothing is configured.</p><p><strong>Related</strong><a href="#view-config"><code>/view-config</code></a></p></div>
-  <p class="notice warning">The current Discord command metadata combines Manage Server and Administrator more strictly than the runtime check intends. Administrators normally satisfy the combined bitfield; non-administrator managers may not see the command until metadata remediation is complete.</p>
+  <p class="notice info">Discord command visibility can vary with your server's command permissions. If an authorized administrator cannot find this command, review the command settings and try again after Discord refreshes them.</p>
 </article>
 
 <article class="command-card" id="set-auto-roles">
   <h2><code>/set-auto-roles</code></h2>
-  <div class="command-meta"><span>Manage Roles</span><span>Channel-visible result</span><span>Controlled administration</span></div>
+  <div class="command-meta"><span>Manage Roles</span><span>Channel-visible result</span><span>Administrator command</span></div>
   <p>Stores up to two roles to add when a member joins.</p>
   <pre><code>/set-auto-roles role1:@Member role2:@Announcements</code></pre>
   <div class="command-details"><p><strong>Options</strong><code>role1</code> required; <code>role2</code> optional.</p><p><strong>Expected result</strong>A list of saved auto roles.</p><p><strong>Common errors</strong>No role selected, role deleted, role is managed, or bot role is too low.</p><p><strong>Related</strong><a href="{{ '/commands/utility/' | relative_url }}#list-auto-roles"><code>/list-auto-roles</code></a></p></div>
@@ -73,7 +73,7 @@ Configuration commands change settings for the current Discord server. Run them 
   <div class="command-meta"><span>Administrator</span><span>Channel-visible result</span><span>Role hierarchy required</span></div>
   <p>Stores the role assigned after an approved verification or completed introduction flow.</p>
   <pre><code>/set-verified-role role:@Verified</code></pre>
-  <div class="command-details"><p><strong>Options</strong><code>role</code> required; the current schema also exposes an unused optional <code>role2</code>.</p><p><strong>Expected result</strong>Confirmation mentioning the saved role.</p><p><strong>Common errors</strong>Role unavailable, managed role, or bot role too low.</p><p><strong>Related</strong><a href="{{ '/commands/verification/' | relative_url }}#idverify"><code>/idverify</code></a>, <a href="{{ '/commands/verification/' | relative_url }}#set-intro-channel"><code>/set-intro-channel</code></a></p></div>
+  <div class="command-details"><p><strong>Options</strong><code>role</code> required; the current schema also exposes an unused optional <code>role2</code>.</p><p><strong>Expected result</strong>Confirmation mentioning the saved role.</p><p><strong>Common errors</strong>Role unavailable, managed role, or bot role too low.</p><p><strong>Related</strong><a href="{{ '/commands/verification/' | relative_url }}#set-intro-channel"><code>/set-intro-channel</code></a>, <a href="{{ '/features/verification/' | relative_url }}">Verification guidance</a></p></div>
 </article>
 
 <article class="command-card" id="set-verify-log-channel">
@@ -81,6 +81,6 @@ Configuration commands change settings for the current Discord server. Run them 
   <div class="command-meta"><span>Manage Server or Administrator at runtime</span><span>Ephemeral</span><span>Manage Webhooks required</span></div>
   <p>Selects the age-verification approval log channel and creates or reuses a server-owned <strong>NovaPulse Logs</strong> webhook.</p>
   <pre><code>/set-verify-log-channel channel:#verification-log</code></pre>
-  <div class="command-details"><p><strong>Options</strong><code>channel</code> (required text channel).</p><p><strong>Expected result</strong>Private confirmation of the channel and logging method.</p><p><strong>Common errors</strong>Invalid channel, missing Manage Webhooks, duplicate webhook issue, or inaccessible destination.</p><p><strong>Related</strong><a href="{{ '/commands/verification/' | relative_url }}#idverify"><code>/idverify</code></a>, <a href="#view-config"><code>/view-config</code></a></p></div>
-  <p class="notice warning">This command's combined default permission metadata is stricter than its runtime OR check. The behavior remains under permission remediation.</p>
+  <div class="command-details"><p><strong>Options</strong><code>channel</code> (required text channel).</p><p><strong>Expected result</strong>Private confirmation of the channel and logging method.</p><p><strong>Common errors</strong>Invalid channel, missing Manage Webhooks, duplicate webhook issue, or inaccessible destination.</p><p><strong>Related</strong><a href="{{ '/features/verification/' | relative_url }}">Verification guidance</a>, <a href="#view-config"><code>/view-config</code></a></p></div>
+  <p class="notice info">Required permissions may vary with your server's command settings. Confirm the selected log channel is private to the staff who need access.</p>
 </article>

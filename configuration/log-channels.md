@@ -20,7 +20,7 @@ NovaPulse can route several event categories independently. Use separate destina
 | Kicks and bans | Moderation leads | <code>/set kick-log channel:#mod-log</code> |
 | Bulk unban | Server owners | <code>/set unban-all-log channel:#admin-audit</code> |
 | ID verification approval | Approved verification staff | <code>/set-verify-log-channel channel:#id-review-log</code> |
-| NovaTrap or anti-nuke | Security staff | Controlled deployment only |
+| NovaTrap or anti-nuke | Security staff | Configure only for authorized advanced deployments |
 
 </div>
 
@@ -30,7 +30,7 @@ Give NovaPulse View Channel, Send Messages, and Embed Links in the destination. 
 
 ## Webhook safety
 
-The current build accepts optional webhook destinations in several commands. Public-release review requires tighter Discord-host validation and outbound-request controls. Prefer selecting a channel in the command. Never share a webhook URL; it contains a credential.
+The current build accepts optional webhook destinations in several commands. Prefer selecting a channel in the command, and never share a webhook URL because it contains a credential.
 
 ## Test the destination
 

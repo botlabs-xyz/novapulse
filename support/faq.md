@@ -6,9 +6,9 @@ permalink: /support/faq/
 section: support
 ---
 
-## Is NovaPulse publicly ready?
+## Is NovaPulse available for every server?
 
-No public-readiness claim is made by this documentation. NovaPulse remains a controlled deployment while security, permissions, onboarding, retention, false-positive testing, and legal review continue.
+NovaPulse is being prepared for broader availability. Standard setup, configuration, and documentation are available, while some advanced security and bulk-administration features remain limited.
 
 ## Does NovaPulse require Administrator?
 

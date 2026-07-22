@@ -6,7 +6,7 @@ permalink: /features/verification/
 section: features
 section_title: Features
 section_url: /features/
-status: Controlled workflow
+status: Feature-specific availability
 status_style: warning
 ---
 
@@ -20,9 +20,9 @@ The form can process self-entered profile information and age. Configure only fi
 
 ## Age-policy automation
 
-The current build can apply a configured age policy to self-entered information. Automatic bans based on a single text entry are deferred from public release because typo handling, review, appeal, and reversal safeguards are not complete.
+The current build can apply a configured age policy to self-entered information. This advanced workflow is not currently available as part of a standard server installation.
 
-Keep the policy set to **Off** unless the controlled deployment owner has approved a reviewed procedure.
+Keep the policy set to **Off** unless NovaPulse has approved the feature for your server.
 
 ## Third-party identity verification
 

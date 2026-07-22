@@ -20,7 +20,7 @@ NovaTrap evidence can include message content and attachment links when needed t
 
 ## Internal NovaPulse operational monitoring
 
-The Phase 1A implementation added centralized redaction and optional internal channels for service activity, redacted errors, shard or uptime status, and minimal security summaries. Internal monitoring is designed to use an allowlist of minimal metadata.
+NovaPulse is designed to keep service monitoring separate from server-owned logs and to limit operational metadata to the information needed for reliable support and maintenance.
 
 It should not contain private message content, full moderation evidence, raw configuration, webhook credentials, complete member records, invite history, or cross-server private records.
 

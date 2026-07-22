@@ -1,16 +1,34 @@
-# NovaPulse Documentation
+# NovaPulse
 
-Official public-review documentation for NovaPulse, an advanced Discord moderation, automation, verification, logging, and community-management bot built by Afterparty Bot Labs.
+Advanced moderation, automation, verification, logging, and server security for Discord communities.
 
-Live documentation: <https://botlabs-xyz.github.io/novapulse>
+[![Documentation](https://img.shields.io/badge/Documentation-9933FF?style=for-the-badge&logo=readthedocs&logoColor=white)](https://botlabs-xyz.github.io/novapulse/)
+[![Invite](https://img.shields.io/badge/Invite_NovaPulse-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1354663481021829150)
+[![Support](https://img.shields.io/badge/Support-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
+[![Website](https://img.shields.io/badge/Afterparty_Bot_Labs-9933FF?style=for-the-badge)](https://afterpartylabs.xyz)
 
-> The documentation can be published while NovaPulse remains in controlled deployment. Do not interpret the site as a public-readiness declaration for the bot or for features marked draft, controlled, incomplete, or deferred.
+## About NovaPulse
 
-## Framework
+NovaPulse helps Discord communities organize moderation, server configuration, onboarding, verification, logging, and security workflows. The documentation explains how to install the app, configure only the features your server needs, and keep permissions and role hierarchy in good order.
 
-The site uses GitHub Pages-compatible Jekyll with custom layouts, responsive CSS, and lightweight vanilla JavaScript. It does not depend on an external theme or unsupported plugin.
+## Documentation
 
-## Local development
+- [Documentation](https://botlabs-xyz.github.io/novapulse/)
+- [Invite NovaPulse](https://discord.com/oauth2/authorize?client_id=1354663481021829150)
+- [Support server](https://discord.gg/BusuZp2G8w)
+- [Afterparty Bot Labs](https://afterpartylabs.xyz)
+- [botlabs-xyz on GitHub](https://github.com/botlabs-xyz)
+
+## Core features
+
+- Server roles, channels, logs, and configuration review
+- Moderation and staff administration tools
+- Introductory role workflows and optional verification features
+- Server-owned activity and moderation logging
+- Configurable automation, NovaTrap, and server-security tooling
+- Guides for permissions, role hierarchy, setup, and troubleshooting
+
+## Local documentation development
 
 Requirements: Ruby, Bundler, and Jekyll.
 
@@ -19,68 +37,24 @@ bundle install
 bundle exec jekyll serve --baseurl /novapulse
 ```
 
-Open the local URL printed by Jekyll. Build without serving:
+Build without serving:
 
 ```powershell
 bundle exec jekyll build
 ```
 
-## Project structure
+GitHub Pages publishes the site from `main` at the repository root with the `/novapulse` base URL.
 
-```text
-_data/             Navigation data
-_includes/         Shared head, header, sidebar, and footer
-_layouts/          Jekyll page layout
-assets/            CSS, JavaScript, and optimized NovaPulse images
-commands/          Slash-command reference
-configuration/     Administrator configuration guidance
-features/          Confirmed feature behavior and release status
-getting-started/   Installation, setup, and permissions
-guides/            Task-focused administrator guides
-legal/             Draft privacy policy and terms
-support/           FAQ, troubleshooting, bug reports, and support
-docs-development/  Implementation report, excluded from the public build
-scripts/            Reproducible development helpers, excluded from the public build
-```
+## Repository purpose
 
-## Contribution expectations
+This repository contains the public NovaPulse documentation website. It does **not** contain the private NovaPulse bot source code.
 
-- Verify behavior against the current NovaPulse source before documenting it.
-- Clearly distinguish available, controlled, incomplete, and deferred behavior.
-- Do not advertise a feature as public-ready until its release gate is approved.
-- Use `relative_url` or `absolute_url` filters for paths under the `/novapulse` base path.
-- Keep navigation, metadata, accessibility, mobile behavior, and cross-links current.
-- Mark Privacy Policy and Terms changes for owner/legal review.
+Maintainer-only notes live in `docs-development/` and are excluded from the published Jekyll site.
 
 ## Content safety
 
-Never add:
+Never commit credentials, runtime data, `.env` files, logs, databases, private configuration, webhook URLs, identity documents, or production exports. If sensitive data is exposed, remove it from the pending change, rotate or revoke the affected credential, and review repository history before publishing.
 
-- Bot tokens, client secrets, Stripe keys, passwords, authorization headers, or recovery codes.
-- Discord webhook URLs or tokens.
-- Complete `.env` files or live configuration.
-- Production guild, channel, role, or member data except intentionally public application links.
-- Databases, runtime logs, invite records, audit reports, backups, archives, or source-project files.
-- Identity documents, private messages, or personal member information.
+## Afterparty Bot Labs
 
-If a credential is exposed, stop, remove it from the pending change, rotate or revoke it through the owning service, and review repository history before publishing.
-
-## Deployment
-
-The repository is configured for GitHub Pages at `/novapulse`. Publish from the `main` branch and repository root. GitHub's supported Jekyll build will generate the site; `_site` should remain uncommitted.
-
-If Pages is not enabled, open **Repository Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-
-## Branding
-
-NovaPulse uses `#9933FF` as its primary accent. Optimized website derivatives are generated from the official source image with:
-
-```powershell
-python scripts/generate_brand_assets.py
-```
-
-The original source image remains unchanged and is excluded from version control.
-
-## Attribution
-
-NovaPulse and this documentation are part of [Afterparty Bot Labs](https://afterpartylabs.xyz).
+NovaPulse is part of [Afterparty Bot Labs](https://afterpartylabs.xyz).

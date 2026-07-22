@@ -15,7 +15,7 @@ A safe NovaPulse configuration is guild-specific, least-privileged, and easy for
 1. [Roles and permissions]({{ '/configuration/roles-and-permissions/' | relative_url }})
 2. [Log channels]({{ '/configuration/log-channels/' | relative_url }})
 3. [Verification settings]({{ '/configuration/verification-settings/' | relative_url }})
-4. [Security settings]({{ '/configuration/security-settings/' | relative_url }}) only for approved controlled deployments
+4. [Security settings]({{ '/configuration/security-settings/' | relative_url }}) when your server uses an advanced security feature
 
 ## Configuration principles
 

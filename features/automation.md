@@ -10,7 +10,7 @@ status: Opt-in design pending
 status_style: warning
 ---
 
-The current private build handles several member and server events automatically.
+NovaPulse can handle several member and server events automatically when a server administrator enables and configures them.
 
 ## Confirmed automation
 
@@ -24,7 +24,7 @@ The current private build handles several member and server events automatically
 
 ## Current limitations
 
-Public onboarding is incomplete. New servers do not have a complete feature opt-in wizard, permission-check command, retention selection, or idempotent disable/remove workflow. Invite and message-count records in the current private build also need final retention and deletion procedures.
+Some automation options are still being refined. Configure only the workflows your server needs, and review the privacy and retention implications before enabling member-related automation.
 
 ## Recommended approach
 
@@ -33,4 +33,4 @@ Public onboarding is incomplete. New servers do not have a complete feature opt-
 3. Limit features to the smallest approved set.
 4. Use a test account to verify join and verification behavior.
 5. Review logs for one complete test cycle.
-6. Contact support before enabling behavior not covered by the controlled deployment plan.
+6. Contact support if you need help with an advanced or limited-availability workflow.

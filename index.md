@@ -10,13 +10,13 @@ home: true
   <div class="hero-copy">
     <p class="eyebrow">Afterparty Bot Labs · Discord server operations</p>
     <h1><span>NovaPulse</span></h1>
-    <p class="hero-lead">Advanced moderation, automation, verification, and server security for Discord communities.</p>
+    <p class="hero-lead">Advanced moderation, automation, verification, logging, and server security for Discord communities.</p>
     <div class="hero-actions">
       <a class="button primary" href="{{ site.links.invite }}" target="_blank" rel="noopener noreferrer">Invite NovaPulse</a>
       <a class="button" href="{{ '/getting-started/' | relative_url }}">Get started</a>
       <a class="button ghost" href="{{ site.links.support }}" target="_blank" rel="noopener noreferrer">Join support</a>
     </div>
-    <p class="hero-note">NovaPulse is currently a controlled deployment. The documentation is public for review, but an invite link does not indicate that every feature is ready for unrestricted public use.</p>
+    <p class="hero-note">Protect your community, simplify administration, and keep important server activity organized with configurable moderation, verification, logging, and automation tools.</p>
   </div>
   <div class="hero-art">
     <img src="{{ '/assets/images/novapulse-logo.webp' | relative_url }}" alt="NovaPulse neon pulse logo" width="512" height="512">
@@ -26,12 +26,12 @@ home: true
 <section class="home-section" aria-labelledby="capabilities-heading">
   <p class="section-kicker">Confirmed capabilities</p>
   <h2 id="capabilities-heading">A focused control layer for safer Discord communities.</h2>
-  <p class="section-intro">NovaPulse combines server configuration, member onboarding, staff-reviewed verification, logging, and security tooling. Availability varies while safety work continues.</p>
+  <p class="section-intro">NovaPulse brings together server configuration, member onboarding, verification, logging, and security tooling in one focused control layer.</p>
   <div class="feature-grid">
     <article class="feature-card">
-      <span class="card-label">Controlled release</span>
+      <span class="card-label">Server security</span>
       <h3>NovaTrap</h3>
-      <p>A configurable warning-channel and spam-response system with staff exemptions, recovery messaging, dry-run scans, and server-owned logging. Automatic enforcement remains restricted pending false-positive and appeal safeguards.</p>
+      <p>A configurable warning-channel and spam-response system with staff exemptions, recovery messaging, dry-run scans, and server-owned logging.</p>
     </article>
     <article class="feature-card">
       <span class="card-label">Staff workflow</span>
@@ -41,7 +41,7 @@ home: true
     <article class="feature-card">
       <span class="card-label">Server-owned</span>
       <h3>Logging</h3>
-      <p>Route moderation, invite, introduction, role, and verification events to channels selected by the server. Internal service monitoring is separate and uses minimal redacted metadata.</p>
+      <p>Route moderation, invite, introduction, role, and verification events to channels selected by your server.</p>
     </article>
     <article class="feature-card">
       <span class="card-label">Administration</span>
@@ -57,7 +57,7 @@ home: true
   <div class="quick-grid">
     <article class="quick-card"><h3>Install the app</h3><p>Use the Guild Install flow with the <code>bot</code> and <code>applications.commands</code> scopes.</p></article>
     <article class="quick-card"><h3>Place the bot role</h3><p>Move NovaPulse above every role it must assign, remove, or moderate. Discord hierarchy always applies.</p></article>
-    <article class="quick-card"><h3>Configure in stages</h3><p>Start with channels and roles, review <code>/view-config</code>, then test one workflow in a controlled channel.</p></article>
+    <article class="quick-card"><h3>Configure in stages</h3><p>Start with channels and roles, review <code>/view-config</code>, then test one workflow at a time.</p></article>
   </div>
 </section>
 
@@ -67,8 +67,19 @@ home: true
   <div class="link-grid">
     <a class="link-card" href="{{ '/getting-started/' | relative_url }}"><h3>Getting started</h3><p>Install scopes, initial setup, permissions, and hierarchy.</p><span>Open guide →</span></a>
     <a class="link-card" href="{{ '/commands/' | relative_url }}"><h3>Commands</h3><p>Browse syntax, options, access, results, and common errors.</p><span>View commands →</span></a>
-    <a class="link-card" href="{{ '/features/' | relative_url }}"><h3>Features</h3><p>Understand verification, logging, automation, and security status.</p><span>Explore features →</span></a>
+    <a class="link-card" href="{{ '/features/' | relative_url }}"><h3>Features</h3><p>Explore verification, logging, automation, moderation, and security tools.</p><span>Explore features →</span></a>
     <a class="link-card" href="{{ '/support/troubleshooting/' | relative_url }}"><h3>Troubleshooting</h3><p>Resolve missing commands, access, channel, and hierarchy issues.</p><span>Fix a problem →</span></a>
+  </div>
+</section>
+
+<section class="home-section" aria-labelledby="availability-heading">
+  <div class="home-callout">
+    <div>
+      <p class="section-kicker">Availability</p>
+      <h2 id="availability-heading">Built carefully for broader availability.</h2>
+      <p class="section-intro">NovaPulse is currently being prepared for broader public availability. Some advanced security and bulk-administration features remain limited while final safety and reliability work is completed.</p>
+    </div>
+    <a class="button" href="{{ '/getting-started/' | relative_url }}">Read the setup guide</a>
   </div>
 </section>
 

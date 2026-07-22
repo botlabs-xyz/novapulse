@@ -1,13 +1,11 @@
 ---
 layout: default
 title: Configure verification
-description: Set up test roles and an introduction channel while keeping age and identity features controlled.
+description: Set up test roles and an introduction channel for a safe NovaPulse onboarding workflow.
 permalink: /guides/configuring-verification/
 section: guides
 section_title: Guides
 section_url: /guides/
-status: Controlled workflow
-status_style: warning
 ---
 
 ## 1. Create safe test roles
@@ -36,7 +34,7 @@ Configure only the role lists your server actually uses. Then choose the validat
 /set-underage-ban-policy policy:Off
 ```
 
-Public use is deferred until human review, typo handling, appeal, and reversal safeguards exist.
+This advanced workflow is not currently available as part of a standard server installation.
 
 ## 5. Test the introduction
 
@@ -46,6 +44,6 @@ Use a non-staff test account. Confirm the panel opens, the form submits, selecte
 
 Do not enable <code>/idverify</code> as part of the basic introduction test. It requires a configured third-party service, a private staff procedure, a verification log, a reviewed privacy notice, retention and deletion rules, and an appeal/manual-correction path.
 
-## 7. Do not use the incomplete free-verification panel
+## 7. Keep advanced verification separate
 
-The current <code>/setup-verify</code> button does not have a confirmed handler in the validated source state. Wait for remediation and testing.
+Do not add age automation or third-party identity verification to a basic introduction rollout. Contact support if your server has been authorized to use an advanced verification workflow.

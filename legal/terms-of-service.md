@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Terms of service
-description: Draft public-review terms for authorized NovaPulse use, administrator responsibility, moderation, availability, and support.
+description: Draft terms of service for NovaPulse, pending owner and legal review.
 permalink: /legal/terms-of-service/
 section: legal
 status: Draft · owner/legal review required
@@ -10,77 +10,53 @@ status_style: warning
 
 **Draft date:** July 22, 2026
 
-These draft terms describe intended NovaPulse service rules for public review. They are not legal advice and do not become final terms until the NovaPulse owner completes legal review, identifies the contracting operator, selects applicable law and dispute language, and publishes an effective date.
+These are draft terms for NovaPulse. They are not legal advice and do not become final terms until Afterparty Bot Labs completes legal review, identifies the responsible legal entity, selects applicable law and dispute language, and publishes an effective date.
 
-## 1. Acceptance
+## 1. Using NovaPulse
 
-By installing, configuring, or using NovaPulse after final terms take effect, server administrators and authorized users would agree to these terms and the [Privacy Policy]({{ '/legal/privacy-policy/' | relative_url }}). If they do not agree, they should not use the service.
-
-## 2. Authorized Discord use
+After final terms take effect, server administrators and authorized users who install, configure, or use NovaPulse must follow these terms and the [Privacy Policy]({{ '/legal/privacy-policy/' | relative_url }}).
 
 NovaPulse may be used only through authorized Discord accounts and servers, in compliance with Discord's terms, community guidelines, developer policies, and applicable law. Server administrators must have authority to install the app and enable selected features.
 
-## 3. Administrator responsibility
+## 2. Server administrator responsibilities
 
-Administrators are responsible for server rules, feature selection, permission grants, command access, role hierarchy, staff authorization, notices to members, log access and retention, moderation decisions, appeal handling, and the consequences of configured automation.
+Server administrators are responsible for their server rules, feature selection, permission grants, command access, role hierarchy, staff authorization, notices to members, log access, moderation decisions, and appeals.
 
-NovaPulse does not replace human judgment. Destructive or automated features should not be enabled unless their documented release gate and the server's own review process are satisfied.
+NovaPulse supports staff workflows; it does not replace human judgment. Use least privilege, test new workflows safely, and keep recovery procedures appropriate for your community.
 
-## 4. Moderation and verification features
+## 3. Moderation and verification
 
-Moderation, NovaTrap, anti-nuke, introduction, age-policy, and identity-verification features may affect member access or process member-related information. Administrators must test safely, use least privilege, provide appropriate notice, and maintain a review and appeal route.
+Moderation, NovaTrap, anti-nuke, introduction, age-policy, and identity-verification features can affect member access or process member-related information. Server administrators must provide appropriate notice, limit staff access, and maintain a review and appeal route.
 
-The current documentation marks several features as controlled, incomplete, or deferred. Users must not represent such a feature as generally available or guaranteed safe.
+Some advanced features are available only to authorized deployments. They must not be represented as generally available or guaranteed safe.
 
-## 5. Prohibited use
+## 4. Prohibited use
 
 Users must not:
 
 - Use NovaPulse to harass, discriminate, deceive, or unlawfully monitor people.
-- Abuse bulk moderation, automated security, or verification features.
-- Attempt to access internal commands, another server's data, credentials, or private operational systems.
+- Abuse moderation, security, or verification features.
+- Attempt to access internal commands, another server's data, credentials, or private systems.
 - Submit malicious URLs, credentials, code, or files through commands or support.
-- Circumvent Discord permissions, rate limits, safety controls, or applicable service restrictions.
+- Circumvent Discord permissions, rate limits, safety controls, or service restrictions.
 - Use verification features without appropriate authority, notice, provider review, and lawful purpose.
 - Misrepresent NovaPulse, Afterparty Bot Labs, or another community.
 
-## 6. Availability and changes
+## 5. Availability and changes
 
 NovaPulse may be unavailable, limited to selected servers, modified, suspended, or discontinued. Features and commands may change as security, reliability, privacy, and Discord requirements evolve. No uninterrupted uptime or permanent feature availability is promised.
 
-## 7. Suspension or removal
+## 6. Third-party services
 
-The operator may restrict or remove access for abuse, security risk, legal or platform requirements, unsafe configuration, excessive service impact, or violation of final terms. Server administrators may remove NovaPulse from their server at any time, subject to the documented data-deletion process.
+NovaPulse depends on Discord and may use third-party services such as Stripe Identity for an optional verification workflow. Those services have separate terms and privacy practices. Final terms will identify applicable provider responsibilities and administrator obligations.
 
-## 8. Third-party services
+## 7. Appeals and support
 
-NovaPulse depends on Discord and may use confirmed third-party services such as Stripe Identity for an optional verification workflow. Those services have separate terms and privacy practices. The final terms must identify applicable provider responsibilities and any administrator obligations.
+Members should appeal a server moderation decision to that server's staff. The NovaPulse support team can review suspected service errors or product-level concerns, but it does not automatically overrule a server's independent moderation policy. Contact the [support server]({{ site.links.support }}) without sharing credentials or identity documents.
 
-## 9. Disclaimers and limitations
+## 8. Items requiring final review
 
-NovaPulse is provided subject to the disclaimers and liability limits approved in the final legal review. Automated moderation can produce errors, false positives, incomplete cleanup, or failed actions when permissions, hierarchy, APIs, or configured destinations are unavailable. Administrators must maintain human oversight and recovery procedures.
-
-No liability cap, warranty exclusion, governing law, or dispute process is stated in this draft because those provisions require operator/legal approval.
-
-## 10. Appeals and support
-
-Members should appeal a server moderation decision to that server's staff. NovaPulse support can review suspected service errors or operator-level concerns but does not automatically overrule a server's independent moderation policy. Contact the [support server]({{ site.links.support }}) without sharing credentials or identity documents.
-
-## 11. Privacy
-
-Processing of information is described in the [Privacy Policy]({{ '/legal/privacy-policy/' | relative_url }}). Administrators must review it before enabling features that process message content, member events, invite information, introductions, or verification metadata.
-
-## 12. Changes to terms
-
-Final terms may be updated when the service, providers, platform requirements, or law changes. Material changes should include a new effective date and an appropriate notice method.
-
-## 13. Contact
-
-Questions may be sent through the [Afterparty Bot Labs support server]({{ site.links.support }}). A formal legal contact and operator address require owner review before public launch.
-
-## 14. Items requiring final review
-
-- Legal operator and contact details.
+- Responsible legal entity and contact details.
 - Effective date and acceptance mechanism.
 - Governing law, venue, disputes, arbitration, and consumer rights.
 - Warranty disclaimers, liability limitations, and indemnity.

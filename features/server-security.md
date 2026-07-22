@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Server security
-description: Understand anti-nuke monitoring, audit-log requirements, response boundaries, and controlled-release limits.
+description: Understand anti-nuke monitoring, audit-log requirements, response boundaries, and safe operating guidance.
 permalink: /features/server-security/
 section: features
 section_title: Features
 section_url: /features/
-status: Emergency response deferred
+status: Advanced feature
 status_style: danger
 ---
 
@@ -27,8 +27,6 @@ NovaPulse needs View Audit Log to attribute actions. Emergency response may also
 
 The feature is not a replacement for Discord's own security controls, staff account protection, least privilege, two-factor authentication, or change review. Audit-log attribution can arrive late or be unavailable. A missing permission should cause the feature to alert or skip rather than perform a partial response.
 
-## Release status
+## Availability
 
-Emergency lockdown remains deferred until administrator and moderator false-positive protections, action preflights, target caps, confirmations or policy controls, immutable cases, and recovery procedures are complete.
-
-Use <code>/antinuke status</code> for review. Keep <code>emergency_lockdown</code> disabled unless the NovaPulse deployment owner has approved a controlled test.
+Emergency lockdown is currently limited to authorized deployments. Use <code>/antinuke status</code> for review, and keep <code>emergency_lockdown</code> disabled unless NovaPulse has approved a safe test for your server.

@@ -11,7 +11,7 @@ section_url: /getting-started/
 Use the official [NovaPulse invite link]({{ site.links.invite }}) and select a server where you have permission to install apps.
 
 <div class="notice warning">
-  <strong>Controlled availability:</strong> The install link is provided for the documented workflow. NovaPulse is not yet declared ready for unrestricted public use, and access may be limited by the application owner.
+  <strong>Availability:</strong> NovaPulse access may be limited while the product is prepared for broader availability. Advanced security and bulk-administration features are not part of the standard installation flow.
 </div>
 
 ## Required install scopes
@@ -31,7 +31,7 @@ Administrator is not required and should not be granted by default.
 | --- | --- | --- |
 | Basic | View Channels, Send Messages, Embed Links, Read Message History | Commands, panels, and basic channel output |
 | Onboarding and roles | Basic plus Manage Server and Manage Roles | Invite attribution, join roles, and verification roles |
-| Moderation add-on | Kick Members, Ban Members, Manage Messages, Moderate Members, View Audit Log | Only for approved moderation or security workflows |
+| Moderation add-on | Kick Members, Ban Members, Manage Messages, Moderate Members, View Audit Log | Only when your server uses the related moderation or security features |
 | Optional setup | Manage Channels or Manage Webhooks | Only when NovaPulse must create a NovaTrap channel or a server-owned verification webhook |
 
 </div>

@@ -3,7 +3,7 @@
   pages:
     - title: Start here
       url: /getting-started/
-      description: Invite NovaPulse and understand the controlled-release status.
+      description: Invite NovaPulse, review permissions, and configure your server.
     - title: Invite NovaPulse
       url: /getting-started/inviting-novapulse/
       description: Install scopes, permission profiles, and first checks.
@@ -21,7 +21,7 @@
       description: Browse the 20 non-developer commands in the current build.
     - title: Configuration
       url: /commands/configuration/
-      description: Server configuration, roles, logs, and controlled security settings.
+      description: Server configuration, roles, logs, and security settings.
     - title: Moderation
       url: /commands/moderation/
       description: Bulk moderation commands and their release safeguards.
@@ -42,7 +42,7 @@
       description: Confirmed NovaPulse capabilities and availability.
     - title: NovaTrap
       url: /features/novatrap/
-      description: Draft safety guidance for the controlled anti-spam system.
+      description: Warning-channel, anti-spam, exemptions, and safe testing guidance.
     - title: Verification
       url: /features/verification/
       description: Introduction, role, and third-party verification workflows.
@@ -75,7 +75,7 @@
       description: Configure introduction and verification roles.
     - title: Security settings
       url: /configuration/security-settings/
-      description: Controlled settings for NovaTrap and anti-nuke.
+      description: Settings for NovaTrap and anti-nuke monitoring.
 - title: Guides
   key: guides
   pages:
@@ -114,7 +114,7 @@
   pages:
     - title: Privacy policy
       url: /legal/privacy-policy/
-      description: Draft public-review privacy policy for NovaPulse.
+      description: Draft privacy policy for NovaPulse.
     - title: Terms of service
       url: /legal/terms-of-service/
-      description: Draft public-review terms for NovaPulse.
+      description: Draft terms of service for NovaPulse.

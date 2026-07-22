@@ -14,7 +14,6 @@ section_url: /commands/
   <p>Shows a category selector and links to the website and support server.</p>
   <pre><code>/help</code></pre>
   <div class="command-details"><p><strong>Options</strong>None.</p><p><strong>NovaPulse authorization</strong>No staff role required; menu interactions are limited to the original invoker.</p><p><strong>Expected result</strong>An interactive command-category menu.</p><p><strong>Common errors</strong>Menu expired after 15 minutes or another user tries to use it.</p><p><strong>Response visibility</strong>Initial menu is visible; denial messages are ephemeral.</p><p><strong>Related</strong><a href="{{ '/commands/' | relative_url }}">Complete command reference</a></p></div>
-  <p class="notice warning">The current in-Discord menu needs alignment with the public command list and must not expose private developer commands before release.</p>
 </article>
 
 <article class="command-card" id="assign-no-roles">
@@ -23,7 +22,7 @@ section_url: /commands/
   <p>Assigns the first configured non-verified role to human members who currently have no server roles.</p>
   <pre><code>/assign-no-roles</code></pre>
   <div class="command-details"><p><strong>Options</strong>None.</p><p><strong>NovaPulse authorization</strong>Access is currently governed by Discord command permissions; restrict to trusted role managers.</p><p><strong>Expected result</strong>Counts of assigned and failed members.</p><p><strong>Common errors</strong>No non-verified role configured, role deleted, no eligible members, or role hierarchy failure.</p><p><strong>Response visibility</strong>Visible in the channel.</p><p><strong>Related</strong><a href="{{ '/commands/configuration/' | relative_url }}#set-non-verified-role"><code>/set-non-verified-role</code></a></p></div>
-  <p class="notice warning">This bulk action currently has no dry-run preview or target cap. Use only in a controlled maintenance window.</p>
+  <p class="notice info">Review the configured non-verified role and eligible members before running this command. Use a staff-only channel for the result.</p>
 </article>
 
 <article class="command-card" id="list-auto-roles">

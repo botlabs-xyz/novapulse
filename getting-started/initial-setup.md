@@ -37,7 +37,7 @@ Gender and pronoun role lists are optional and are used only when the introducti
 
 The command posts an introduction button and stores the selected channel. Test the form with a non-staff account before announcing it.
 
-The current <code>/setup-verify</code> panel includes a button whose interaction is not complete in the validated source state. Do not publish it as a working member workflow yet.
+Keep advanced verification features separate from this initial setup. Contact support if your server has been authorized to use an advanced verification workflow.
 
 ## 4. Configure server-owned logs
 

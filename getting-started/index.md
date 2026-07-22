@@ -4,17 +4,15 @@ title: Getting started
 description: Install NovaPulse with least privilege, place its role correctly, and verify a safe initial configuration.
 permalink: /getting-started/
 section: getting-started
-status: Controlled deployment
-status_style: warning
 ---
 
-NovaPulse is currently used in controlled environments while public-release hardening continues. Server owners can review this documentation and prepare a configuration, but should not treat every feature as ready for unrestricted production use.
+NovaPulse is designed to help server administrators configure moderation, logging, onboarding, and community-management workflows with clear permissions and role hierarchy.
 
 <div class="doc-grid">
   <article class="doc-card"><h3>1. Invite</h3><p>Use a Guild Install with the <code>bot</code> and <code>applications.commands</code> scopes.</p><p><a href="{{ '/getting-started/inviting-novapulse/' | relative_url }}">Review the install guide</a></p></article>
   <article class="doc-card"><h3>2. Position the role</h3><p>Place NovaPulse above roles it needs to assign and members it may moderate.</p><p><a href="{{ '/getting-started/permissions/' | relative_url }}">Review permissions</a></p></article>
   <article class="doc-card"><h3>3. Configure basics</h3><p>Select server-owned roles and channels, then review the result with <code>/view-config</code>.</p><p><a href="{{ '/getting-started/initial-setup/' | relative_url }}">Follow initial setup</a></p></article>
-  <article class="doc-card"><h3>4. Test safely</h3><p>Use a private test channel and non-privileged test account. Keep automated enforcement disabled unless your deployment is approved for it.</p><p><a href="{{ '/guides/setting-up-novapulse/' | relative_url }}">Open the setup checklist</a></p></article>
+  <article class="doc-card"><h3>4. Test safely</h3><p>Use a private test channel and non-privileged test account before enabling a new workflow.</p><p><a href="{{ '/guides/setting-up-novapulse/' | relative_url }}">Open the setup checklist</a></p></article>
 </div>
 
 ## Before you begin
@@ -26,7 +24,7 @@ NovaPulse is currently used in controlled environments while public-release hard
 - Confirm that NovaPulse's role can access the channel where you run commands.
 
 <div class="notice warning">
-  <strong>Release status:</strong> NovaTrap automatic enforcement, anti-nuke lockdown, bulk kick, bulk unban, automated age-policy actions, and third-party ID verification require additional review before a public rollout. Use only in an approved controlled deployment.
+  <strong>Availability:</strong> NovaPulse is currently being prepared for broader public availability. Some advanced security and bulk-administration features remain limited while final safety and reliability work is completed.
 </div>
 
 ## A successful basic setup looks like this
