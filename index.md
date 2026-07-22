@@ -19,7 +19,7 @@ home: true
     <p class="hero-note">Protect your community, simplify administration, and keep important server activity organized with configurable moderation, verification, logging, and automation tools.</p>
   </div>
   <div class="hero-art">
-    <img src="{{ '/assets/images/novapulse-logo.webp' | relative_url }}" alt="NovaPulse neon pulse logo" width="512" height="512">
+    <img src="{{ '/assets/images/novapulse-logo-transparent.png' | relative_url }}" alt="NovaPulse neon pulse logo" width="512" height="512">
   </div>
 </section>
 
