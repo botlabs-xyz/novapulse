@@ -20,4 +20,4 @@ Use the introduction workflow to welcome members and apply roles that your serve
 
 ## Advanced verification features
 
-Automated age actions, the free-verification panel, and third-party identity verification are not currently part of the standard NovaPulse workflow. They are available only where NovaPulse has authorized the deployment and the server has completed the required privacy and staff-review preparation.
+Automated age actions, the free-verification panel, and third-party identity verification are not currently part of the standard NovaPulse workflow. Availability is limited while the required privacy and staff-review preparation is completed for each server.

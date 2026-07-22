@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Invite NovaPulse
-description: Use the current Guild Install link, understand the OAuth2 scopes, and grant only the permissions needed by selected features.
+description: Use the official NovaPulse invite link and approve only the permissions needed by your server's selected features.
 permalink: /getting-started/inviting-novapulse/
 section: getting-started
 section_title: Getting started
@@ -14,12 +14,11 @@ Use the official [NovaPulse invite link]({{ site.links.invite }}) and select a s
   <strong>Availability:</strong> NovaPulse access may be limited while the product is prepared for broader availability. Advanced security and bulk-administration features are not part of the standard installation flow.
 </div>
 
-## Required install scopes
+## What the invite does
 
-- <code>bot</code> — adds NovaPulse to the server.
-- <code>applications.commands</code> — registers slash commands.
+The official invite adds NovaPulse to your server and makes its slash commands available automatically.
 
-NovaPulse does not need user account OAuth scopes such as email, connections, or user-installed app access for its current guild features.
+NovaPulse does not ask for access to your Discord account information beyond the server installation approval.
 
 ## Permission profiles
 

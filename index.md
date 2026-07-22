@@ -55,7 +55,7 @@ home: true
   <p class="section-kicker">Quick start</p>
   <h2 id="quick-start-heading">Start small, verify access, then enable only what you need.</h2>
   <div class="quick-grid">
-    <article class="quick-card"><h3>Install the app</h3><p>Use the Guild Install flow with the <code>bot</code> and <code>applications.commands</code> scopes.</p></article>
+    <article class="quick-card"><h3>Invite NovaPulse</h3><p>Use the official NovaPulse invite link, select your server, and approve the requested permissions.</p></article>
     <article class="quick-card"><h3>Place the bot role</h3><p>Move NovaPulse above every role it must assign, remove, or moderate. Discord hierarchy always applies.</p></article>
     <article class="quick-card"><h3>Configure in stages</h3><p>Start with channels and roles, review <code>/view-config</code>, then test one workflow at a time.</p></article>
   </div>
@@ -65,7 +65,7 @@ home: true
   <p class="section-kicker">Documentation</p>
   <h2 id="explore-heading">Find the right path for your server.</h2>
   <div class="link-grid">
-    <a class="link-card" href="{{ '/getting-started/' | relative_url }}"><h3>Getting started</h3><p>Install scopes, initial setup, permissions, and hierarchy.</p><span>Open guide →</span></a>
+    <a class="link-card" href="{{ '/getting-started/' | relative_url }}"><h3>Getting started</h3><p>Inviting NovaPulse, initial setup, permissions, and hierarchy.</p><span>Open guide →</span></a>
     <a class="link-card" href="{{ '/commands/' | relative_url }}"><h3>Commands</h3><p>Browse syntax, options, access, results, and common errors.</p><span>View commands →</span></a>
     <a class="link-card" href="{{ '/features/' | relative_url }}"><h3>Features</h3><p>Explore verification, logging, automation, moderation, and security tools.</p><span>Explore features →</span></a>
     <a class="link-card" href="{{ '/support/troubleshooting/' | relative_url }}"><h3>Troubleshooting</h3><p>Resolve missing commands, access, channel, and hierarchy issues.</p><span>Fix a problem →</span></a>

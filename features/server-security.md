@@ -10,7 +10,7 @@ status: Advanced feature
 status_style: danger
 ---
 
-NovaPulse's anti-nuke feature observes selected destructive actions through Discord audit logs. The current implementation covers channel deletion, role deletion, and kicks within configurable windows and thresholds.
+NovaPulse's anti-nuke feature observes selected destructive actions through Discord audit logs. It can monitor channel deletion, role deletion, and kicks within configurable windows and thresholds.
 
 ## What it can do
 
@@ -29,4 +29,4 @@ The feature is not a replacement for Discord's own security controls, staff acco
 
 ## Availability
 
-Emergency lockdown is currently limited to authorized deployments. Use <code>/antinuke status</code> for review, and keep <code>emergency_lockdown</code> disabled unless NovaPulse has approved a safe test for your server.
+Emergency lockdown is currently limited to selected servers. Use <code>/antinuke status</code> for review, and keep <code>emergency_lockdown</code> disabled unless NovaPulse confirms that a safe test is available for your server.

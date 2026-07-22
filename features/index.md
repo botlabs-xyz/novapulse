@@ -25,7 +25,7 @@ NovaPulse brings practical server-management tools together in one place. Choose
 
 ## Advanced availability
 
-Some advanced security, bulk-administration, automated age-policy, and third-party verification features are currently limited to authorized deployments. They are described on their relevant pages so server administrators can understand the requirements and safe operating boundaries.
+Some advanced security, bulk-administration, automated age-policy, and third-party verification features are currently limited to selected servers. Their related pages explain the requirements and safe operating boundaries for servers where they are available.
 
 ## Explore a feature
 

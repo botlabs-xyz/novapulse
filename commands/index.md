@@ -6,7 +6,7 @@ permalink: /commands/
 section: commands
 ---
 
-NovaPulse uses slash commands for server configuration, roles, onboarding, verification, and day-to-day administration. Internal diagnostic and maintenance commands are available only to NovaPulse developers and are intentionally not documented here.
+NovaPulse uses slash commands for server configuration, roles, onboarding, verification, and day-to-day administration. Diagnostic and maintenance commands are not part of the public command reference.
 
 ## Administrator commands
 
@@ -45,7 +45,7 @@ NovaPulse uses slash commands for server configuration, roles, onboarding, verif
 
 ## Advanced features
 
-NovaTrap, anti-nuke response, bulk moderation, automated age actions, and third-party identity verification are currently limited to authorized deployments. They are not part of the standard server setup flow. If your server has access to one of these features, follow the related feature guidance and contact support before enabling it.
+NovaTrap, anti-nuke response, bulk moderation, automated age actions, and third-party identity verification are currently limited to selected servers. They are not part of the standard server setup flow. If one of these features is available for your server, follow the related guidance and contact support before enabling it.
 
 ## Choose a category
 

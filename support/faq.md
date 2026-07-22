@@ -20,7 +20,7 @@ The bot needs Manage Roles and its highest role must be above the target role. M
 
 ## Why is a command missing?
 
-The app may lack the <code>applications.commands</code> scope, your account may not have the command's required permission, the server may override command access, or global command registration may still be updating.
+NovaPulse may not have finished installing, your account may not have the command's required permission, the server may override command access, or Discord may still be updating the command list. Reopen the official invite link if the installation was interrupted.
 
 ## Does NovaPulse store identity documents?
 

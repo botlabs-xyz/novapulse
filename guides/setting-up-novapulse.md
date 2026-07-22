@@ -10,7 +10,7 @@ section_url: /guides/
 
 ## Step 1: Install
 
-Use the [official invite link]({{ site.links.invite }}) with Guild Install. The required scopes are <code>bot</code> and <code>applications.commands</code>. Do not grant Administrator as a shortcut.
+Use the [official invite link]({{ site.links.invite }}), select your server, and approve the requested permissions. Do not grant Administrator as a shortcut.
 
 ## Step 2: Position NovaPulse
 

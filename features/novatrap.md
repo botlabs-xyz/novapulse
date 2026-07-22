@@ -13,7 +13,7 @@ status_style: danger
 NovaTrap is the public name for the feature called **Honeypot** in the current commands. It combines a configured do-not-message channel with optional spam detection, recovery messaging, message cleanup, moderation action, and staff logging.
 
 <div class="notice danger">
-  Automatic NovaTrap enforcement is currently limited to authorized deployments. Do not enable it for a standard server installation; use dry-run tools and contact support if you need access.
+  Automatic NovaTrap enforcement is currently limited to selected servers. Do not enable it for a standard server installation; use dry-run tools and contact support if you need access.
 </div>
 
 ## Purpose
@@ -33,7 +33,7 @@ Any normal member message posted directly in the configured trap channel can tri
 
 ## Confirmed exemptions
 
-The current implementation skips bots and protects the server owner, NovaPulse developers, configured exempt users and roles, administrators, and members with common moderation permissions by default.
+NovaTrap skips bots and protects the server owner, NovaPulse team members, configured exempt users and roles, administrators, and members with common moderation permissions by default.
 
 ## Possible moderation actions
 
@@ -74,7 +74,7 @@ Keep your server's own moderation notes and appeal process available for any act
 4. Run <code>scan-spam</code> or <code>cleanup-users</code> with <code>dryrun:true</code> only.
 5. Confirm excluded channels, staff roles, and logging access.
 6. Review the predicted targets manually.
-7. Do not enable live action unless NovaPulse has approved your deployment.
+7. Do not enable live action unless NovaPulse confirms that it is available for your server.
 
 ## Appeals and recovery
 
