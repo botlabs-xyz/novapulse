@@ -46,4 +46,3 @@ Staff approval is manual. The current approval button assigns the configured ver
 
 - [Configure verification]({{ '/guides/configuring-verification/' | relative_url }})
 - [Verification commands]({{ '/commands/verification/' | relative_url }})
-- [Privacy policy draft]({{ '/legal/privacy-policy/' | relative_url }})

@@ -6,6 +6,7 @@ permalink: /commands/security/
 section: commands
 section_title: Commands
 section_url: /commands/
+published: false
 status: Limited availability
 status_style: danger
 ---

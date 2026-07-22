@@ -24,7 +24,7 @@ The app may lack the <code>applications.commands</code> scope, your account may 
 
 ## Does NovaPulse store identity documents?
 
-NovaPulse does not ask members to upload documents into Discord. The optional ID workflow creates a Stripe Identity session and can associate a Discord user ID with that session. Authorized staff access and provider retention require owner/legal review.
+NovaPulse does not ask members to upload documents into Discord. Where enabled for a server, the optional ID workflow creates a Stripe Identity session and can associate a Discord user ID with that session. Server administrators should limit staff access and clearly explain their server's handling of verification information.
 
 ## Where do moderation logs go?
 

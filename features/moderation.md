@@ -36,4 +36,4 @@ Server administrators remain responsible for configuring commands, limiting staf
 
 Do not grant a staff role access to a NovaPulse command merely because that role can see the command. Limit destructive commands through Discord's command settings, use a staff-only channel, and keep the NovaPulse role below trusted senior staff.
 
-See [Moderation commands]({{ '/commands/moderation/' | relative_url }}) and [Permissions]({{ '/getting-started/permissions/' | relative_url }}).
+See [Permissions]({{ '/getting-started/permissions/' | relative_url }}) for role-hierarchy and access guidance.

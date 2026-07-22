@@ -6,6 +6,7 @@ permalink: /commands/moderation/
 section: commands
 section_title: Commands
 section_url: /commands/
+published: false
 status: Not currently available for standard deployments
 status_style: danger
 ---

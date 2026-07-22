@@ -24,7 +24,6 @@ exclude:
   - .git/
   - .jekyll-cache/
   - .sass-cache/
-  - docs-development/
   - scripts/
   - vendor/
   - Gemfile

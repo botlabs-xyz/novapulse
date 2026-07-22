@@ -22,18 +22,12 @@
     - title: Configuration
       url: /commands/configuration/
       description: Server configuration, roles, logs, and security settings.
-    - title: Moderation
-      url: /commands/moderation/
-      description: Bulk moderation commands and their release safeguards.
     - title: Verification
       url: /commands/verification/
       description: Introduction, free verification, and staff-reviewed ID verification.
     - title: Utility
       url: /commands/utility/
       description: Help and role-management utilities.
-    - title: Security
-      url: /commands/security/
-      description: Anti-nuke and NovaTrap command status.
 - title: Features
   key: features
   pages:
@@ -109,12 +103,3 @@
     - title: Support server
       url: /support/support-server/
       description: Contact Afterparty Bot Labs support.
-- title: Legal
-  key: legal
-  pages:
-    - title: Privacy policy
-      url: /legal/privacy-policy/
-      description: Draft privacy policy for NovaPulse.
-    - title: Terms of service
-      url: /legal/terms-of-service/
-      description: Draft terms of service for NovaPulse.
