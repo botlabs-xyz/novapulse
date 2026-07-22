@@ -1,0 +1,24 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="release-banner" role="status">
+  <span class="status-dot" aria-hidden="true"></span>
+  Documentation preview <span aria-hidden="true">·</span> NovaPulse remains a controlled deployment while release hardening continues.
+</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="NovaPulse documentation home">
+      <img src="{{ '/assets/images/novapulse-logo-64.png' | relative_url }}" alt="" width="44" height="44">
+      <span><strong>NovaPulse</strong><small>Documentation</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      <span class="sr-only">Toggle navigation</span><span aria-hidden="true">Menu</span>
+    </button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+      <a href="{{ '/getting-started/' | relative_url }}"{% if page.section == 'getting-started' %} aria-current="page"{% endif %}>Get started</a>
+      <a href="{{ '/commands/' | relative_url }}"{% if page.section == 'commands' %} aria-current="page"{% endif %}>Commands</a>
+      <a href="{{ '/features/' | relative_url }}"{% if page.section == 'features' %} aria-current="page"{% endif %}>Features</a>
+      <a href="{{ '/guides/' | relative_url }}"{% if page.section == 'guides' %} aria-current="page"{% endif %}>Guides</a>
+      <a href="{{ '/support/faq/' | relative_url }}"{% if page.section == 'support' %} aria-current="page"{% endif %}>Support</a>
+      <a class="nav-cta" href="{{ site.links.invite }}" target="_blank" rel="noopener noreferrer">Invite</a>
+    </nav>
+  </div>
+</header>

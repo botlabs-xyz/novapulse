@@ -1,0 +1,20 @@
+<aside class="docs-sidebar" aria-label="Documentation navigation">
+  <div class="sidebar-search">
+    <label for="docs-search">Search documentation</label>
+    <input id="docs-search" type="search" placeholder="Search commands and guides" autocomplete="off" aria-controls="search-results">
+    <div id="search-results" class="search-results" hidden></div>
+  </div>
+  <button class="sidebar-toggle" type="button" aria-expanded="false" aria-controls="section-navigation">Browse documentation sections</button>
+  <nav id="section-navigation" aria-label="Section navigation">
+    {% for group in site.data.navigation %}
+      <details class="nav-group"{% if page.section == group.key %} open{% endif %}>
+        <summary>{{ group.title }}</summary>
+        <ul>
+          {% for item in group.pages %}
+            <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endfor %}
+  </nav>
+</aside>

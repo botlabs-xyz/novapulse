@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang }}" data-baseurl="{{ site.baseurl }}">
+  <head>{% include head.html %}</head>
+  <body class="{% if page.home %}home-page{% else %}docs-page{% endif %}" data-section="{{ page.section | default: 'home' }}">
+    {% include header.html %}
+    {% if page.home %}
+      <main id="main-content" class="home-content">{{ content }}</main>
+    {% else %}
+      <div class="docs-shell">
+        {% include sidebar.html %}
+        <main id="main-content" class="doc-content">
+          <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="{{ '/' | relative_url }}">Home</a><span aria-hidden="true">/</span>
+            {% if page.section_title %}<a href="{{ page.section_url | relative_url }}">{{ page.section_title }}</a><span aria-hidden="true">/</span>{% endif %}
+            <span aria-current="page">{{ page.title }}</span>
+          </nav>
+          <header class="page-heading">
+            {% if page.status %}<span class="status-badge status-{{ page.status_style | default: 'info' }}">{{ page.status }}</span>{% endif %}
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+          </header>
+          {{ content }}
+          <nav class="page-pagination" aria-label="Previous and next pages" data-page-pagination></nav>
+        </main>
+      </div>
+    {% endif %}
+    {% include footer.html %}
+  </body>
+</html>

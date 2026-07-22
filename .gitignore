@@ -1,0 +1,12 @@
+# Local design/source artifacts
+NovaPulse.png
+
+# Local development output
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+scripts/__pycache__/
+.jekyll-serve.*
+.DS_Store
+Thumbs.db

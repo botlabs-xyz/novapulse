@@ -1,0 +1,12 @@
+---
+layout: null
+permalink: /search.json
+---
+[
+  {"title": "Home", "url": {{ '/' | relative_url | jsonify }}, "description": {{ site.description | jsonify }} }
+  {% for group in site.data.navigation %}
+    {% for item in group.pages %},
+  {"title": {{ item.title | jsonify }}, "url": {{ item.url | relative_url | jsonify }}, "description": {{ item.description | jsonify }}, "section": {{ group.title | jsonify }} }
+    {% endfor %}
+  {% endfor %}
+]

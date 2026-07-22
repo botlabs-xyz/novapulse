@@ -1,0 +1,120 @@
+- title: Getting started
+  key: getting-started
+  pages:
+    - title: Start here
+      url: /getting-started/
+      description: Invite NovaPulse and understand the controlled-release status.
+    - title: Invite NovaPulse
+      url: /getting-started/inviting-novapulse/
+      description: Install scopes, permission profiles, and first checks.
+    - title: Initial setup
+      url: /getting-started/initial-setup/
+      description: Configure roles, channels, logging, and verification safely.
+    - title: Permissions
+      url: /getting-started/permissions/
+      description: Least-privilege permissions and Discord role hierarchy.
+- title: Commands
+  key: commands
+  pages:
+    - title: Command reference
+      url: /commands/
+      description: Browse the 20 non-developer commands in the current build.
+    - title: Configuration
+      url: /commands/configuration/
+      description: Server configuration, roles, logs, and controlled security settings.
+    - title: Moderation
+      url: /commands/moderation/
+      description: Bulk moderation commands and their release safeguards.
+    - title: Verification
+      url: /commands/verification/
+      description: Introduction, free verification, and staff-reviewed ID verification.
+    - title: Utility
+      url: /commands/utility/
+      description: Help and role-management utilities.
+    - title: Security
+      url: /commands/security/
+      description: Anti-nuke and NovaTrap command status.
+- title: Features
+  key: features
+  pages:
+    - title: Feature overview
+      url: /features/
+      description: Confirmed NovaPulse capabilities and availability.
+    - title: NovaTrap
+      url: /features/novatrap/
+      description: Draft safety guidance for the controlled anti-spam system.
+    - title: Verification
+      url: /features/verification/
+      description: Introduction, role, and third-party verification workflows.
+    - title: Moderation
+      url: /features/moderation/
+      description: Moderation actions, hierarchy, and administrator responsibility.
+    - title: Logging
+      url: /features/logging/
+      description: Customer-server logs and minimal operational monitoring.
+    - title: Automation
+      url: /features/automation/
+      description: Join roles, introductions, invite tracking, and member events.
+    - title: Server security
+      url: /features/server-security/
+      description: Anti-nuke monitoring and security boundaries.
+- title: Configuration
+  key: configuration
+  pages:
+    - title: Configuration overview
+      url: /configuration/
+      description: Plan and review a NovaPulse server configuration.
+    - title: Log channels
+      url: /configuration/log-channels/
+      description: Route logs without exposing credentials or private data.
+    - title: Roles and permissions
+      url: /configuration/roles-and-permissions/
+      description: Configure manageable roles and hierarchy.
+    - title: Verification settings
+      url: /configuration/verification-settings/
+      description: Configure introduction and verification roles.
+    - title: Security settings
+      url: /configuration/security-settings/
+      description: Controlled settings for NovaTrap and anti-nuke.
+- title: Guides
+  key: guides
+  pages:
+    - title: Guides overview
+      url: /guides/
+      description: Task-focused guides for administrators.
+    - title: Set up NovaPulse
+      url: /guides/setting-up-novapulse/
+      description: A safe end-to-end setup checklist.
+    - title: Configure logs
+      url: /guides/configuring-logs/
+      description: Create and verify server-owned logging destinations.
+    - title: Configure verification
+      url: /guides/configuring-verification/
+      description: Configure roles, prompts, and staff review.
+    - title: Troubleshoot permissions
+      url: /guides/troubleshooting-permissions/
+      description: Diagnose missing bot permissions and hierarchy.
+- title: Support
+  key: support
+  pages:
+    - title: FAQ
+      url: /support/faq/
+      description: Answers to common NovaPulse questions.
+    - title: Troubleshooting
+      url: /support/troubleshooting/
+      description: Resolve command, permission, channel, and configuration issues.
+    - title: Report a bug
+      url: /support/reporting-bugs/
+      description: Send a useful, secret-safe bug report.
+    - title: Support server
+      url: /support/support-server/
+      description: Contact Afterparty Bot Labs support.
+- title: Legal
+  key: legal
+  pages:
+    - title: Privacy policy
+      url: /legal/privacy-policy/
+      description: Draft public-review privacy policy for NovaPulse.
+    - title: Terms of service
+      url: /legal/terms-of-service/
+      description: Draft public-review terms for NovaPulse.
